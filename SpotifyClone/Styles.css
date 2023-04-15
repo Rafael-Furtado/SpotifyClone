@@ -6,9 +6,10 @@
 .navegacao{
     background-color: rgb(0, 0, 0);
     width: 350px;
-    text-align: center;
+    text-align: left;
     margin: 0;
     height: 100vh;
+    position: fixed;
 }
 
 .logo{
@@ -18,13 +19,17 @@
     margin-top:0;
     margin-left: 0;
     padding-top: 25px;
-    ;
+}
+
+.logo img{
+    width: 175px;
 }
 
 .principal{
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
+    padding-left: 30px;
 }
 
 .principal a{
@@ -44,24 +49,100 @@ body{
 
 .content{
     color: whitesmoke;
-    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient( to bottom,rgb(38, 38, 38), rgb(20, 20, 20), rgb(8, 8, 8) );
     width: 200vh;
+    margin-left: 350px;
 }
 
 .container{
-    margin-top: 55px;
-    margin-left: 25px;
+    margin-top: 35px;
+    margin-left: 30px;
 }
 
 .card{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    padding-top: 10px;
+    align-content: space-around;
 }
 
-.card a{
+.playlist a{
     color: whitesmoke;
     text-decoration: none;
     padding-right: 50px;
 }
 
+.preview{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.next{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.left{
+padding-left:20px;
+}
+
+.right{
+    text-align:end;
+}
+
+header{
+    display: flex;
+    padding-top: 20px;
+}
+.playlist{
+    padding: 20px;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: rgb(20, 20, 20);
+    align-items: center;
+    margin: 15px;
+    width: 190px;
+    height: 280px;
+    background-color: rgb(20, 20, 20);
+}
+
+.playlist img{
+    width: 190px;
+    border-radius: 5%;
+    box-shadow: 40px;
+}
+
+.playlist h2{
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.playlist h3{
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.card :hover{
+    background-color:rgb(38, 38, 38) ;
+    cursor: pointer;
+}
+
+.container h1{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+footer{
+    background-color: rgb(38, 38, 38);
+    position: fixed;
+}
