@@ -30,6 +30,10 @@
     flex-direction: column;
     margin-bottom: 45px;
     padding-left: 30px;
+    border-bottom: solid 1px;
+    border-color: whitesmoke;
+    padding-bottom: 12px;
+    
 }
 
 .principal a{
@@ -191,7 +195,11 @@ body{
     padding-top: 30px;
 }
 
-footer{
+footer .bar{
     background-color: rgb(38, 38, 38);
+    color: whitesmoke;
     position: fixed;
+    display: flex;
+    flex-direction: row;
 }
+
