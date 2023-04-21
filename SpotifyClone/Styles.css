@@ -160,6 +160,7 @@ body{
     display: flex;
     padding-top: 20px;  
     width: 160vh;
+    position: fixed;
 }
 
 .playlist{
@@ -242,5 +243,14 @@ footer .bar .music{
 .details :hover{
     text-decoration: underline;
     color: whitesmoke;
+}
+
+.container{
+    padding-top: 55px;
+    padding-bottom: 80px;
+    border-bottom: 1px;
+    border: rgb(46, 46, 46);
+    border-bottom-style: solid;
+    margin-bottom: 255px;
 }
 
