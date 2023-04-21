@@ -47,6 +47,11 @@
 }
 
 body{
+   display: flex;
+   flex-direction: column;
+}
+
+.home{
     display: flex;
     flex-direction: row;
 }
@@ -195,11 +200,47 @@ body{
     padding-top: 30px;
 }
 
-footer .bar{
+footer{
     background-color: rgb(38, 38, 38);
     color: whitesmoke;
-    position: fixed;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    position: fixed;
+    margin-top: 84vh;
+    padding-bottom: 5px;
+    height: 135px;
+}
+
+footer .bar img{
+    width: 100px;
+    padding: 20px;
+}
+
+footer .bar .music{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.details .h3{
+    font-weight: bold;
+}
+
+.details .p{
+    padding-top: 5px;
+    color: rgb(130, 130, 130);
+}
+
+.details a{
+    padding-top: 43px;
+    display: flex;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.details :hover{
+    text-decoration: underline;
+    color: whitesmoke;
 }
 
