@@ -14,10 +14,10 @@
 
 .logo{
     margin-bottom: 40px;
-    text-align: center;
+    text-align: left;
     color: whitesmoke;
     margin-top:0;
-    margin-left: 0;
+    margin-left: 20px;
     padding-top: 25px;
 }
 
@@ -28,22 +28,21 @@
 .principal{
     display: flex;
     flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     padding-left: 30px;
     border-bottom: solid 1px;
     border-color: whitesmoke;
     padding-bottom: 12px;
-    
 }
 
 .principal a{
    text-decoration: none;
    margin-bottom: 15px;
-   color: rgb(192, 190, 190);
+   color: whitesmoke;
 }
 
 .principal a:hover{
-    color: white;
+    font-weight: bold;
 }
 
 body{
@@ -129,6 +128,15 @@ body{
     border-color: whitesmoke;
 }
 
+.right .upgrade:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.right .perfil:hover{
+    background-color: rgb(44, 44, 44);
+}
+
 .perfil{
     background-color:rgb(8, 8, 8);
     color: whitesmoke;
@@ -140,6 +148,7 @@ body{
     display: flex;
     cursor: pointer;
     border-style: none;
+    opacity: 0.8;
 }
 
 .perfil h4{
@@ -254,3 +263,49 @@ footer .bar .music{
     margin-bottom: 255px;
 }
 
+.musicas{
+    color: rgb(141, 141, 141);
+    padding-left: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.musicas ul{
+    list-style:none;
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.musicas ul li{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.musicas ul li:hover{
+    font-weight: bold;
+}
+
+.install img{
+    width: 25px;
+    border: solid;
+    border-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.install{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    margin-top: 6px;
+}
+
+.install a{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.install a:hover{
+    font-weight: bold;
+}
