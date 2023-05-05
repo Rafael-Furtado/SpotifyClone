@@ -10,6 +10,7 @@
     margin: 0;
     height: 100vh;
     position: fixed;
+    overflow: -moz-hidden-unscrollable;
 }
 
 .logo{
@@ -46,8 +47,8 @@
 }
 
 body{
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .home{
@@ -58,7 +59,7 @@ body{
 .content{
     color: whitesmoke;
     background-image: linear-gradient( to bottom,rgb(38, 38, 38), rgb(20, 20, 20), rgb(8, 8, 8) );
-    width: 200vh;
+    width: 175vh;
     margin-left: 300px;
 }
 
@@ -208,6 +209,12 @@ body{
 .container h1{
     font-size: 30px;
     padding-top: 30px;
+    width: max-content;
+}
+
+.container h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 footer{
