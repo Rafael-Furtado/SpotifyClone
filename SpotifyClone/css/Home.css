@@ -358,6 +358,7 @@ footer .controls .barrinha .above{
     margin-left: 55px;
     position: absolute;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 footer .controls .comandos .random img{
@@ -399,4 +400,10 @@ footer .controls .comandos a{
 
 footer .controls .comandos a :hover{
     transform: scale(1.2);
+}
+
+footer .controls .barrinha .above:hover{
+    transform: scale(1.1);
+    
+    margin-left: 57px;
 }
